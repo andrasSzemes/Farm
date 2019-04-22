@@ -9,7 +9,7 @@ public enum Food {
         amount += num;
     }
 
-    public static String getAmountOfAll() {
-        return Spruce.toString() + Almond.toString() + Juniper.toString();
+    public static void getAmountOfAll() {
+        System.out.println("Spruce: " + Spruce.amount + ", Almond: " + Almond.amount + ", Juniper: " + Juniper.amount);
     }
 }
